@@ -11,7 +11,7 @@ namespace ConsoleAppTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("勞保投保薪資分級表");
+            Console.WriteLine("勞保投保薪資分級表:");
 
             XmlDocument doc = new XmlDocument();
             doc.Load(@"./test.xml");
